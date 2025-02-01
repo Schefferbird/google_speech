@@ -157,7 +157,7 @@ class _RecognizeContent extends StatelessWidget {
           ),
           Text(
             text ?? '---',
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyMedium,
           ),
         ],
       ),

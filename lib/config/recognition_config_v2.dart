@@ -61,6 +61,12 @@ enum RecognitionModelV2 {
   /// that originated from a phone call (typically recorded at an 8 kHz sampling rate).
   chirp_telephony,
 
+  /// Use the next generation of our Universal large Speech 
+  /// Model (USM) powered by our large language model technology 
+  /// for streaming and batch, and transcriptions and translations 
+  /// in diverse linguistic content and multilingual capabilities.
+  chirp_2,
+
   /// To transcribe notes dictated by a medical professional.
   /// This is a premium model that costs more than the standard rate.
   /// For pricing visit this page https://cloud.google.com/speech-to-text/pricing

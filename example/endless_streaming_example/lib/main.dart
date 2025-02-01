@@ -1,10 +1,7 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_sound_lite/flutter_sound.dart';
-import 'package:google_speech/config/streaming_recognition_config.dart';
-import 'package:google_speech/endless_streaming_service.dart';
 import 'package:google_speech/endless_streaming_service_v2.dart';
 import 'package:google_speech/generated/google/cloud/speech/v2/cloud_speech.pb.dart';
 import 'package:google_speech/google_speech.dart';
@@ -202,7 +199,7 @@ class _RecognizeContent extends StatelessWidget {
           ),
           Text(
             text,
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyMedium,
           ),
         ],
       ),
